@@ -1,28 +1,23 @@
 ## Meeting Title: Weekly Team Meeting for COMP5047 Applied Software Engineering
 
-Date:  Sep 23, 2025
-Time: 12:00PM to 1:00PM
-Location: Room AB115
-Attendees:
-Imraz Khan
+**Date:**  Sep 30, 2025
+**Time:** 12:00PM to 1:00PM
+**Location:** Room AB115
 
-Siddharth
+# Attendees:
+- Imraz Khan
+- Siddharth
+- Abdullah Azmat
+- Willow Fane
 
-Absentees:
-Abdullah Azmat
+# Absentees:
+- NONE
 
-Willow Fane
-
-Agenda Items:
-Finds group members
-
-Open the git hub account
-
-Create a communication system aka google meet.
+# Agenda Items:
+- Assigning group work.
+- Discusiing the gorup tasks. 
 
 Decisions/Actions:
-Discuss the coursework and teamwork task.
 
-Assign tasks to everyone when everyone is available hopefully next week.
 
 Responsible person: Imraz Khan
