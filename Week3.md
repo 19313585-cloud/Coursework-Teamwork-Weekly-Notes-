@@ -25,6 +25,7 @@
 ## Decisions/Actions:
 - All downloaded and learnt how to use papyrus by next week
 - Start working building a use case model
+- From next week, we are going to start workign on task 2, writing quality requirements
 
 ## Issues to be solved:
 - Discussed/analysed the quality requirements of the subsystem; but need to be in more detail
