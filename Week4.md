@@ -23,6 +23,8 @@ WEEK 4
 - With the help of the lecture, we are are going to make a start on the Use Case Model and the Activity model.
 - We have set up mini deadlines for tasks to stay on track and complete the courework in time.
 - We also had a small discussion with all our team members and gave pointers/advice to each others work.
+- Finishing and finalizing the Task 2 by next week.
+- By next week start building the USE-CASE Diagrams.
   
 
 ## Issues to be solved:
