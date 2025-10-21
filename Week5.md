@@ -16,12 +16,16 @@ WEEK 5
 
 
 ## Agenda Items:
+- Finished Task 2 and reviewed each others work.
 - 
 ## Decisions/Actions:
-- 
+- Connecting papyrus to our individual repositories.
+- Building a draft for use case and activity diagram.
+- Revise our deadlines and make sure evryone is on the same page.
   
 
 ## Issues to be solved:
--  
+-  Having issues in connecting github to papyrus particularly while deleting the cloned file once it's been linked with github.
+
 
 **Responsible person:**  Abdullah Azmat
