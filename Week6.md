@@ -8,11 +8,11 @@ WEEK 6
 
 ## Attendees:
 - Imraz Khan
+- Abdullah Azmat
 
 ## Absentees:
 - Siddharth Senthilkumar
 - Willow Fane
-- Abdullah Azmat
 
 ## Agenda Items:
 - Draft version done of task 3
