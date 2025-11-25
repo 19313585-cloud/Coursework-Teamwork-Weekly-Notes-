@@ -8,12 +8,11 @@ WEEK 9
 
 ## Attendees:
 - Imraz Khan
-- Abdullah Azmat
 - Siddharth Senthilkumar
 - Willow Fane
   
 ## Absentees:
-- None
+- Abdullah Azmat
 
 ## Agenda Items:
 - Draft version done of Task 4a
