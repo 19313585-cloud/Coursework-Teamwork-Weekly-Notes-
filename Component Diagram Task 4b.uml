@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_5pEqoMnxEfCmts79u_XU9w" name="Component Diagram Task 4b">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_53UiAMnxEfCmts79u_XU9w">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Component" xmi:id="_2SIu8Mo8EfCy1toqgvcGcw" name="Student App">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_GlsWMMqvEfCy1toqgvcGcw">
+      <body>Coursework-PERSONAL--main</body>
+    </ownedComment>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_2SIu8co8EfCy1toqgvcGcw" name="UserActions" visibility="public" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_HkPhwMqyEfCy1toqgvcGcw" name="SocietyLookup" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_b9KpEMq6EfCy1toqgvcGcw" name="Membership" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_CZDjYMq_EfCy1toqgvcGcw" name="RetreiveEventDetails" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_y4x28Mq_EfCy1toqgvcGcw" name="RegisterForEvents" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_EBJ3sMrBEfCy1toqgvcGcw" name="SubscribeEvents" visibility="public" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_ULk34MrBEfCy1toqgvcGcw" name="UnsubscribeEvents" aggregation="composite"/>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_2SIu8so8EfCy1toqgvcGcw" client="_2SIu8Mo8EfCy1toqgvcGcw">
+      <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_RoMd8MVXEfCDDOHvT9t6uQ"/>
+      <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_RoMd8MVXEfCDDOHvT9t6uQ"/>
+    </interfaceRealization>
+    <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_2SIu88o8EfCy1toqgvcGcw" client="_2SIu8Mo8EfCy1toqgvcGcw">
+      <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_2u2AcMVXEfCDDOHvT9t6uQ"/>
+      <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_2u2AcMVXEfCDDOHvT9t6uQ"/>
+    </interfaceRealization>
+    <packagedElement xmi:type="uml:Component" xmi:id="_oWjBkMqvEfCy1toqgvcGcw" name="Student Profile Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_oWjBkcqvEfCy1toqgvcGcw" name="RetrieveEventDetails" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_Z6gNwMq6EfCy1toqgvcGcw" name="Port4" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWjBksqvEfCy1toqgvcGcw" client="_oWjBkMqvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_Y9B3wLs2EfCpI-4S8PM2Tw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_Y9B3wLs2EfCpI-4S8PM2Tw"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWjBk8qvEfCy1toqgvcGcw" client="_oWjBkMqvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_CzqFULsUEfCpI-4S8PM2Tw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_CzqFULsUEfCpI-4S8PM2Tw"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_oWmr8MqvEfCy1toqgvcGcw" name="Student GUI">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWmr8cqvEfCy1toqgvcGcw" client="_oWmr8MqvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_LL_XULsWEfCpI-4S8PM2Tw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_LL_XULsWEfCpI-4S8PM2Tw"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWmr8sqvEfCy1toqgvcGcw" client="_oWmr8MqvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_R5j1MLtbEfCLXIH4cmq-Pw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_R5j1MLtbEfCLXIH4cmq-Pw"/>
+      </interfaceRealization>
+      <packagedElement xmi:type="uml:Component" xmi:id="_oWmr88qvEfCy1toqgvcGcw" name="Student GUI"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_oWmr9MqvEfCy1toqgvcGcw" name="CopyOf_Student GUI_1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_oWmr9cqvEfCy1toqgvcGcw" name="Event Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_uzmxUMq_EfCy1toqgvcGcw" name="Port6" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWmr9sqvEfCy1toqgvcGcw" client="_oWmr9cqvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_1UVukLsVEfCpI-4S8PM2Tw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_1UVukLsVEfCpI-4S8PM2Tw"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWmr98qvEfCy1toqgvcGcw" client="_oWmr9cqvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_Y9B3wLs2EfCpI-4S8PM2Tw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_Y9B3wLs2EfCpI-4S8PM2Tw"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWmr-MqvEfCy1toqgvcGcw" client="_oWmr9cqvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_qHgzULshEfCpI-4S8PM2Tw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_qHgzULshEfCpI-4S8PM2Tw"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWmr-cqvEfCy1toqgvcGcw" client="_oWmr9cqvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_wwVfoLtcEfCLXIH4cmq-Pw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_wwVfoLtcEfCLXIH4cmq-Pw"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWmr-sqvEfCy1toqgvcGcw" client="_oWmr9cqvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_FCrFILsVEfCpI-4S8PM2Tw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_FCrFILsVEfCpI-4S8PM2Tw"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_oWmr-8qvEfCy1toqgvcGcw" name="Authentication &amp; Registration Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_oWmr_MqvEfCy1toqgvcGcw" name="ValidateRegistration" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWmr_cqvEfCy1toqgvcGcw" client="_oWmr-8qvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_R5j1MLtbEfCLXIH4cmq-Pw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_R5j1MLtbEfCLXIH4cmq-Pw"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWmr_sqvEfCy1toqgvcGcw" client="_oWmr-8qvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_wwVfoLtcEfCLXIH4cmq-Pw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_wwVfoLtcEfCLXIH4cmq-Pw"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWmr_8qvEfCy1toqgvcGcw" client="_oWmr-8qvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_CzqFULsUEfCpI-4S8PM2Tw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_CzqFULsUEfCpI-4S8PM2Tw"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_oWnTAMqvEfCy1toqgvcGcw" name="Notification &amp; Subscription Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_oWnTAcqvEfCy1toqgvcGcw" name="SendNotification" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_3FAxYMrAEfCy1toqgvcGcw" name="Port6" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWnTAsqvEfCy1toqgvcGcw" client="_oWnTAMqvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_1UVukLsVEfCpI-4S8PM2Tw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_1UVukLsVEfCpI-4S8PM2Tw"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWnTA8qvEfCy1toqgvcGcw" client="_oWnTAMqvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_LL_XULsWEfCpI-4S8PM2Tw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_LL_XULsWEfCpI-4S8PM2Tw"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWnTBMqvEfCy1toqgvcGcw" client="_oWnTAMqvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_qHgzULshEfCpI-4S8PM2Tw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_qHgzULshEfCpI-4S8PM2Tw"/>
+      </interfaceRealization>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_qCIDgMq4EfCy1toqgvcGcw" client="_oWnTAMqvEfCy1toqgvcGcw" supplier="_NCay8Mq4EfCy1toqgvcGcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_oWnTBcqvEfCy1toqgvcGcw" name="Payment Handler">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_oWnTBsqvEfCy1toqgvcGcw" name="ProcessPayment" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWnTB8qvEfCy1toqgvcGcw" client="_oWnTBcqvEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_FCrFILsVEfCpI-4S8PM2Tw"/>
+        <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_FCrFILsVEfCpI-4S8PM2Tw"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_-Cv9YMqxEfCy1toqgvcGcw" name="Society Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_Dyo4YMqyEfCy1toqgvcGcw" name="Port1" aggregation="composite"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Component" xmi:id="__cLq8MqwEfCy1toqgvcGcw" name="Society Leader App">
+    <ownedAttribute xmi:type="uml:Port" xmi:id="__cLq8cqwEfCy1toqgvcGcw" name="ValidateSociety" visibility="public" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="__cLq8sqwEfCy1toqgvcGcw" name="GetMembers" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="__cLq88qwEfCy1toqgvcGcw" name="SaveEvent" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="__cLq9MqwEfCy1toqgvcGcw" name="GetEventdetails" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="__cLq9cqwEfCy1toqgvcGcw" name="Notify" aggregation="composite"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__cLq9sqwEfCy1toqgvcGcw" name="PushNotification"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__cLq98qwEfCy1toqgvcGcw" name="Login"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__cLq-MqwEfCy1toqgvcGcw" name="Society Authentication"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__cLq-cqwEfCy1toqgvcGcw" name="Society Data Sync"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__cLq-sqwEfCy1toqgvcGcw" name="ViewEvents"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__cLq-8qwEfCy1toqgvcGcw" name="EventMessageSync"/>
+    <nestedClassifier xmi:type="uml:Interface" xmi:id="__cLq_MqwEfCy1toqgvcGcw" name="EventUpdateNotification"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="__cLq_cqwEfCy1toqgvcGcw" name="Society GUI">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="__cLq_sqwEfCy1toqgvcGcw" name="UserActions" visibility="public" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLq_8qwEfCy1toqgvcGcw" client="__cLq_cqwEfCy1toqgvcGcw" supplier="__cLq9sqwEfCy1toqgvcGcw" contract="__cLq9sqwEfCy1toqgvcGcw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrAMqwEfCy1toqgvcGcw" client="__cLq_cqwEfCy1toqgvcGcw" supplier="__cLq98qwEfCy1toqgvcGcw" contract="__cLq98qwEfCy1toqgvcGcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="__cLrAcqwEfCy1toqgvcGcw" name="Login &amp; Society Account Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="__cLrAsqwEfCy1toqgvcGcw" name="SocietyAccountSync" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrA8qwEfCy1toqgvcGcw" client="__cLrAcqwEfCy1toqgvcGcw" supplier="__cLq98qwEfCy1toqgvcGcw" contract="__cLq98qwEfCy1toqgvcGcw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrBMqwEfCy1toqgvcGcw" client="__cLrAcqwEfCy1toqgvcGcw" supplier="__cLq-MqwEfCy1toqgvcGcw" contract="__cLq-MqwEfCy1toqgvcGcw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrBcqwEfCy1toqgvcGcw" client="__cLrAcqwEfCy1toqgvcGcw" supplier="__cLq-cqwEfCy1toqgvcGcw" contract="__cLq-cqwEfCy1toqgvcGcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="__cLrBsqwEfCy1toqgvcGcw" name="Society Members Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="__cLrB8qwEfCy1toqgvcGcw" name="MembersDetailsUpdate" visibility="public" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrCMqwEfCy1toqgvcGcw" client="__cLrBsqwEfCy1toqgvcGcw" supplier="__cLq-cqwEfCy1toqgvcGcw" contract="__cLq-cqwEfCy1toqgvcGcw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrCcqwEfCy1toqgvcGcw" client="__cLrBsqwEfCy1toqgvcGcw" supplier="__cLq-sqwEfCy1toqgvcGcw" contract="__cLq-sqwEfCy1toqgvcGcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="__cLrCsqwEfCy1toqgvcGcw" name="Society Events Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="__cLrC8qwEfCy1toqgvcGcw" name="EventUpdates" visibility="public" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrDMqwEfCy1toqgvcGcw" client="__cLrCsqwEfCy1toqgvcGcw" supplier="__cLq-MqwEfCy1toqgvcGcw" contract="__cLq-MqwEfCy1toqgvcGcw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrDcqwEfCy1toqgvcGcw" client="__cLrCsqwEfCy1toqgvcGcw" supplier="__cLq-sqwEfCy1toqgvcGcw" contract="__cLq-sqwEfCy1toqgvcGcw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrDsqwEfCy1toqgvcGcw" client="__cLrCsqwEfCy1toqgvcGcw" supplier="__cLq-8qwEfCy1toqgvcGcw" contract="__cLq-8qwEfCy1toqgvcGcw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrD8qwEfCy1toqgvcGcw" client="__cLrCsqwEfCy1toqgvcGcw" supplier="__cLq_MqwEfCy1toqgvcGcw" contract="__cLq_MqwEfCy1toqgvcGcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="__cLrEMqwEfCy1toqgvcGcw" name="Message Sender">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="__cLrEcqwEfCy1toqgvcGcw" name="SendMessage" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrEsqwEfCy1toqgvcGcw" client="__cLrEMqwEfCy1toqgvcGcw" supplier="__cLq-8qwEfCy1toqgvcGcw" contract="__cLq-8qwEfCy1toqgvcGcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="__cLrE8qwEfCy1toqgvcGcw" name="Notification Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="__cLrFMqwEfCy1toqgvcGcw" name="SubscribeEvent" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrFcqwEfCy1toqgvcGcw" client="__cLrE8qwEfCy1toqgvcGcw" supplier="__cLq9sqwEfCy1toqgvcGcw" contract="__cLq9sqwEfCy1toqgvcGcw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrFsqwEfCy1toqgvcGcw" client="__cLrE8qwEfCy1toqgvcGcw" supplier="__cLq_MqwEfCy1toqgvcGcw" contract="__cLq_MqwEfCy1toqgvcGcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="__cLrF8qwEfCy1toqgvcGcw" name="USU System ">
+      <packagedElement xmi:type="uml:Component" xmi:id="__cLrGMqwEfCy1toqgvcGcw" name="USU Student App"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="__cLrGcqwEfCy1toqgvcGcw" name="CopyOf_Society GUI_19">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="__cLrGsqwEfCy1toqgvcGcw" name="UserActions" visibility="public" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrG8qwEfCy1toqgvcGcw" client="__cLrGcqwEfCy1toqgvcGcw" supplier="__cLq9sqwEfCy1toqgvcGcw" contract="__cLq9sqwEfCy1toqgvcGcw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="__cLrHMqwEfCy1toqgvcGcw" client="__cLrGcqwEfCy1toqgvcGcw" supplier="__cLq98qwEfCy1toqgvcGcw" contract="__cLq98qwEfCy1toqgvcGcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ICA4UMqxEfCy1toqgvcGcw" name="Login &amp; Society Account Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_ICA4UcqxEfCy1toqgvcGcw" name="SocietyAccountSync" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ICA4UsqxEfCy1toqgvcGcw" client="_ICA4UMqxEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_2u2AcMVXEfCDDOHvT9t6uQ"/>
+        <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_2u2AcMVXEfCDDOHvT9t6uQ"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ICA4U8qxEfCy1toqgvcGcw" client="_ICA4UMqxEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_bnYSgMlKEfCeXP16CCB75w"/>
+        <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_bnYSgMlKEfCeXP16CCB75w"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ICA4VMqxEfCy1toqgvcGcw" client="_ICA4UMqxEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_Ce7x8MlLEfCeXP16CCB75w"/>
+        <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_Ce7x8MlLEfCeXP16CCB75w"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ICBfYMqxEfCy1toqgvcGcw" name="Society GUI">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_ICBfYcqxEfCy1toqgvcGcw" name="UserActions" visibility="public" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ICBfYsqxEfCy1toqgvcGcw" client="_ICBfYMqxEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_RoMd8MVXEfCDDOHvT9t6uQ"/>
+        <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_RoMd8MVXEfCDDOHvT9t6uQ"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ICBfY8qxEfCy1toqgvcGcw" client="_ICBfYMqxEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_2u2AcMVXEfCDDOHvT9t6uQ"/>
+        <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_2u2AcMVXEfCDDOHvT9t6uQ"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ICBfZ8qxEfCy1toqgvcGcw" name="Society Events Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_ICCGcMqxEfCy1toqgvcGcw" name="EventUpdates" visibility="public" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ICCGccqxEfCy1toqgvcGcw" client="_ICBfZ8qxEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_bnYSgMlKEfCeXP16CCB75w"/>
+        <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_bnYSgMlKEfCeXP16CCB75w"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ICCGcsqxEfCy1toqgvcGcw" client="_ICBfZ8qxEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_ht2FAMlLEfCeXP16CCB75w"/>
+        <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_ht2FAMlLEfCeXP16CCB75w"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ICCGc8qxEfCy1toqgvcGcw" client="_ICBfZ8qxEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_ug6u4MlLEfCeXP16CCB75w"/>
+        <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_ug6u4MlLEfCeXP16CCB75w"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ICCGdMqxEfCy1toqgvcGcw" client="_ICBfZ8qxEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_9EDoMMlLEfCeXP16CCB75w"/>
+        <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_9EDoMMlLEfCeXP16CCB75w"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_3k_S8Mq1EfCy1toqgvcGcw" client="_ICBfZ8qxEfCy1toqgvcGcw" supplier="_ZjQsEMqyEfCy1toqgvcGcw" contract="_ZjQsEMqyEfCy1toqgvcGcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ICCGdcqxEfCy1toqgvcGcw" name="Notification Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_ICCGdsqxEfCy1toqgvcGcw" name="SubscribeEvent" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ICCGd8qxEfCy1toqgvcGcw" client="_ICCGdcqxEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_RoMd8MVXEfCDDOHvT9t6uQ"/>
+        <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_RoMd8MVXEfCDDOHvT9t6uQ"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ICCGeMqxEfCy1toqgvcGcw" client="_ICCGdcqxEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_9EDoMMlLEfCeXP16CCB75w"/>
+        <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_9EDoMMlLEfCeXP16CCB75w"/>
+      </interfaceRealization>
+      <packagedElement xmi:type="uml:Usage" xmi:id="_eW4kYMq4EfCy1toqgvcGcw" client="_ICCGdcqxEfCy1toqgvcGcw" supplier="_En3ogMq4EfCy1toqgvcGcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_ICCGecqxEfCy1toqgvcGcw" name="Society Members Manager">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_ICCGesqxEfCy1toqgvcGcw" name="MembersDetailsUpdate" visibility="public" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ICCGe8qxEfCy1toqgvcGcw" client="_ICCGecqxEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_Ce7x8MlLEfCeXP16CCB75w"/>
+        <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_Ce7x8MlLEfCeXP16CCB75w"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_ICCGfMqxEfCy1toqgvcGcw" client="_ICCGecqxEfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_ht2FAMlLEfCeXP16CCB75w"/>
+        <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_ht2FAMlLEfCeXP16CCB75w"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_wIR3gMq6EfCy1toqgvcGcw" client="_ICCGecqxEfCy1toqgvcGcw" supplier="_q0N84Mq6EfCy1toqgvcGcw" contract="_q0N84Mq6EfCy1toqgvcGcw"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_OdZx8MqyEfCy1toqgvcGcw" client="_Dyo4YMqyEfCy1toqgvcGcw" supplier="_HkPhwMqyEfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_ZjQsEMqyEfCy1toqgvcGcw" name="GetSocietyList"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_uSoWwMq1EfCy1toqgvcGcw" client="_HkPhwMqyEfCy1toqgvcGcw" supplier="_ZjQsEMqyEfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_rtfrEMq2EfCy1toqgvcGcw" name="MessageSent"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_En3ogMq4EfCy1toqgvcGcw" name="ReplyToMessage"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_NCay8Mq4EfCy1toqgvcGcw" name="SendMessage"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_hlMBgMq6EfCy1toqgvcGcw" name="Join/leaveSociety"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_lLuDUMq6EfCy1toqgvcGcw" client="_b9KpEMq6EfCy1toqgvcGcw" supplier="_hlMBgMq6EfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_q0N84Mq6EfCy1toqgvcGcw" name="Join/Leavesociety"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_0cjJEMq6EfCy1toqgvcGcw" client="_hlMBgMq6EfCy1toqgvcGcw" supplier="_q0N84Mq6EfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Component" xmi:id="__klYAMq7EfCy1toqgvcGcw" name="Student Union Management System">
+    <packagedElement xmi:type="uml:Component" xmi:id="_TDadUMq-EfCy1toqgvcGcw" name="Media and Event Promotions">
+      <generalization xmi:type="uml:Generalization" xmi:id="_TDadUcq-EfCy1toqgvcGcw" general="_TDeHsMq-EfCy1toqgvcGcw"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_TDadUsq-EfCy1toqgvcGcw" name="Port3" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_TDadU8q-EfCy1toqgvcGcw" client="_TDadUMq-EfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_14BR4MpUEfCIxZuR8RV0wg"/>
+        <contract xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_14BR4MpUEfCIxZuR8RV0wg"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_TDadVMq-EfCy1toqgvcGcw" client="_TDadUMq-EfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_lRDi0MpYEfCIxZuR8RV0wg"/>
+        <contract xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_lRDi0MpYEfCIxZuR8RV0wg"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_TDcSgMq-EfCy1toqgvcGcw" name="Attendance Managament">
+      <generalization xmi:type="uml:Generalization" xmi:id="_TDcSgcq-EfCy1toqgvcGcw" general="_TDeHsMq-EfCy1toqgvcGcw"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_TDcSgsq-EfCy1toqgvcGcw" name="Port3" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_TDcSg8q-EfCy1toqgvcGcw" client="_TDcSgMq-EfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_lKcPYMpWEfCIxZuR8RV0wg"/>
+        <contract xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_lKcPYMpWEfCIxZuR8RV0wg"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_TDcShMq-EfCy1toqgvcGcw" client="_TDcSgMq-EfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_KaRjEMpXEfCIxZuR8RV0wg"/>
+        <contract xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_KaRjEMpXEfCIxZuR8RV0wg"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_TDc5kMq-EfCy1toqgvcGcw" name="Event creation and Editing">
+      <generalization xmi:type="uml:Generalization" xmi:id="_TDc5kcq-EfCy1toqgvcGcw" general="_TDeHsMq-EfCy1toqgvcGcw"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_TDc5ksq-EfCy1toqgvcGcw" name="Port4" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_TDc5k8q-EfCy1toqgvcGcw" client="_TDc5kMq-EfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_lRDi0MpYEfCIxZuR8RV0wg"/>
+        <contract xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_lRDi0MpYEfCIxZuR8RV0wg"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_TDc5lMq-EfCy1toqgvcGcw" client="_TDc5kMq-EfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_eCUsQMpNEfCIxZuR8RV0wg"/>
+        <contract xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_eCUsQMpNEfCIxZuR8RV0wg"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_TDdgoMq-EfCy1toqgvcGcw" name="Union Reporting">
+      <generalization xmi:type="uml:Generalization" xmi:id="_TDdgocq-EfCy1toqgvcGcw" general="_TDeHsMq-EfCy1toqgvcGcw"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_TDdgosq-EfCy1toqgvcGcw" name="Port2" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_TDdgo8q-EfCy1toqgvcGcw" client="_TDdgoMq-EfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_KaRjEMpXEfCIxZuR8RV0wg"/>
+        <contract xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_KaRjEMpXEfCIxZuR8RV0wg"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_p45f8MrBEfCy1toqgvcGcw" client="_TDdgoMq-EfCy1toqgvcGcw" supplier="_mAmYsMrBEfCy1toqgvcGcw" contract="_mAmYsMrBEfCy1toqgvcGcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_TDeHsMq-EfCy1toqgvcGcw" name="SUMS Database">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_iglggMq_EfCy1toqgvcGcw" client="_TDeHsMq-EfCy1toqgvcGcw" supplier="_fDUvcMq_EfCy1toqgvcGcw" contract="_fDUvcMq_EfCy1toqgvcGcw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_TDeuwMq-EfCy1toqgvcGcw" name="Event Approval">
+      <generalization xmi:type="uml:Generalization" xmi:id="_TDeuwcq-EfCy1toqgvcGcw" general="_TDeHsMq-EfCy1toqgvcGcw"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_TDeuwsq-EfCy1toqgvcGcw" name="Port2" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_TDeuw8q-EfCy1toqgvcGcw" client="_TDeuwMq-EfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_eCUsQMpNEfCIxZuR8RV0wg"/>
+        <contract xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_eCUsQMpNEfCIxZuR8RV0wg"/>
+      </interfaceRealization>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_TDf84Mq-EfCy1toqgvcGcw" name="Registration">
+      <generalization xmi:type="uml:Generalization" xmi:id="_TDf84cq-EfCy1toqgvcGcw" general="_TDeHsMq-EfCy1toqgvcGcw"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_TDf84sq-EfCy1toqgvcGcw" name="Port3" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_TDf848q-EfCy1toqgvcGcw" client="_TDf84Mq-EfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_14BR4MpUEfCIxZuR8RV0wg"/>
+        <contract xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_14BR4MpUEfCIxZuR8RV0wg"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_TDf85Mq-EfCy1toqgvcGcw" client="_TDf84Mq-EfCy1toqgvcGcw">
+        <supplier xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_lKcPYMpWEfCIxZuR8RV0wg"/>
+        <contract xmi:type="uml:Interface" href="../COMP5047_IND/Coursework_Sid/Coursework_Sid.uml#_lKcPYMpWEfCIxZuR8RV0wg"/>
+      </interfaceRealization>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_aVjjUMrAEfCy1toqgvcGcw" client="_TDf84Mq-EfCy1toqgvcGcw" supplier="_V0l5kMrAEfCy1toqgvcGcw" contract="_V0l5kMrAEfCy1toqgvcGcw"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_6r_xEMq-EfCy1toqgvcGcw" client="_Z6gNwMq6EfCy1toqgvcGcw" supplier="_b9KpEMq6EfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_PT0wsMq_EfCy1toqgvcGcw" name="RetrieveEvent Deatils"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Y0-W0Mq_EfCy1toqgvcGcw" client="_CZDjYMq_EfCy1toqgvcGcw" supplier="_PT0wsMq_EfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_bT7skMq_EfCy1toqgvcGcw" client="_Z6gNwMq6EfCy1toqgvcGcw" supplier="_CZDjYMq_EfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_fDUvcMq_EfCy1toqgvcGcw" name="RetrieveEventDeatils"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_n_OTcMq_EfCy1toqgvcGcw" client="_PT0wsMq_EfCy1toqgvcGcw" supplier="_fDUvcMq_EfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_2HZvEMq_EfCy1toqgvcGcw" client="_uzmxUMq_EfCy1toqgvcGcw" supplier="_y4x28Mq_EfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_5gOsEMq_EfCy1toqgvcGcw" name="RegisterForEvent"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_A0EtIMrAEfCy1toqgvcGcw" client="_y4x28Mq_EfCy1toqgvcGcw" supplier="_5gOsEMq_EfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_V0l5kMrAEfCy1toqgvcGcw" name="StudentEventRegistration"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_eqSu8MrAEfCy1toqgvcGcw" client="_5gOsEMq_EfCy1toqgvcGcw" supplier="_V0l5kMrAEfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_WWq2cMrBEfCy1toqgvcGcw" client="_3FAxYMrAEfCy1toqgvcGcw" supplier="_ULk34MrBEfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_XU1u4MrBEfCy1toqgvcGcw" client="_3FAxYMrAEfCy1toqgvcGcw" supplier="_EBJ3sMrBEfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Y33A0MrBEfCy1toqgvcGcw" name="Subscribe/UnsubscribeEvents"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_iW4gAMrBEfCy1toqgvcGcw" client="_ULk34MrBEfCy1toqgvcGcw" supplier="_Y33A0MrBEfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_jIDeQMrBEfCy1toqgvcGcw" client="_EBJ3sMrBEfCy1toqgvcGcw" supplier="_Y33A0MrBEfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_mAmYsMrBEfCy1toqgvcGcw" name="Subcribe/UnsubscribeEvents"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_wSsTkMrBEfCy1toqgvcGcw" client="_Y33A0MrBEfCy1toqgvcGcw" supplier="_mAmYsMrBEfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_-KMZcMrCEfCy1toqgvcGcw" name="Interface34"/>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8hZhkMrAEfCy1toqgvcGcw">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8hg2UMrAEfCy1toqgvcGcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
