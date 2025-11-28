@@ -14,6 +14,8 @@
     <ownedAttribute xmi:type="uml:Port" xmi:id="_y4x28Mq_EfCy1toqgvcGcw" name="RegisterForEvents" aggregation="composite"/>
     <ownedAttribute xmi:type="uml:Port" xmi:id="_EBJ3sMrBEfCy1toqgvcGcw" name="SubscribeEvents" visibility="public" aggregation="composite"/>
     <ownedAttribute xmi:type="uml:Port" xmi:id="_ULk34MrBEfCy1toqgvcGcw" name="UnsubscribeEvents" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="_zIfXwMuMEfCy1toqgvcGcw" name="NationwideEvents" aggregation="composite"/>
+    <ownedAttribute xmi:type="uml:Port" xmi:id="__EFYUMuSEfCy1toqgvcGcw" name="NationwideNotification" aggregation="composite"/>
     <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_2SIu8so8EfCy1toqgvcGcw" client="_2SIu8Mo8EfCy1toqgvcGcw">
       <supplier xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_RoMd8MVXEfCDDOHvT9t6uQ"/>
       <contract xmi:type="uml:Interface" href="../Papyrus5047%20coursework/Individual-Coursework-COMP5047/5047%20coursework/Task%204%20UML%20diagram.uml#_RoMd8MVXEfCDDOHvT9t6uQ"/>
@@ -93,6 +95,7 @@
     <packagedElement xmi:type="uml:Component" xmi:id="_oWnTAMqvEfCy1toqgvcGcw" name="Notification &amp; Subscription Manager">
       <ownedAttribute xmi:type="uml:Port" xmi:id="_oWnTAcqvEfCy1toqgvcGcw" name="SendNotification" aggregation="composite"/>
       <ownedAttribute xmi:type="uml:Port" xmi:id="_3FAxYMrAEfCy1toqgvcGcw" name="Port6" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_JWXLUMuREfCy1toqgvcGcw" name="Port7" aggregation="composite"/>
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_oWnTAsqvEfCy1toqgvcGcw" client="_oWnTAMqvEfCy1toqgvcGcw">
         <supplier xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_1UVukLsVEfCpI-4S8PM2Tw"/>
         <contract xmi:type="uml:Interface" href="../Coursework-PERSONAL-/Acitvity%20Diagram.uml#_1UVukLsVEfCpI-4S8PM2Tw"/>
@@ -354,7 +357,7 @@
   <packagedElement xmi:type="uml:Dependency" xmi:id="_XU1u4MrBEfCy1toqgvcGcw" client="_3FAxYMrAEfCy1toqgvcGcw" supplier="_EBJ3sMrBEfCy1toqgvcGcw"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_Y33A0MrBEfCy1toqgvcGcw" name="Subscribe/UnsubscribeEvents"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_iW4gAMrBEfCy1toqgvcGcw" client="_ULk34MrBEfCy1toqgvcGcw" supplier="_Y33A0MrBEfCy1toqgvcGcw"/>
-  <packagedElement xmi:type="uml:Usage" xmi:id="_jIDeQMrBEfCy1toqgvcGcw" client="_EBJ3sMrBEfCy1toqgvcGcw" supplier="_Y33A0MrBEfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_jIDeQMrBEfCy1toqgvcGcw" client="_5pEqoMnxEfCmts79u_XU9w" supplier="_Y33A0MrBEfCy1toqgvcGcw"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_mAmYsMrBEfCy1toqgvcGcw" name="Subcribe/UnsubscribeEvents"/>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_wSsTkMrBEfCy1toqgvcGcw" client="_Y33A0MrBEfCy1toqgvcGcw" supplier="_mAmYsMrBEfCy1toqgvcGcw"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_qqNrUMrFEfCy1toqgvcGcw" name="EventDataLoad"/>
@@ -365,8 +368,7 @@
   <packagedElement xmi:type="uml:Interface" xmi:id="_2Umj8MrHEfCy1toqgvcGcw" name="SocietyRegistrationApproved"/>
   <packagedElement xmi:type="uml:Usage" xmi:id="_AsEHAMrIEfCy1toqgvcGcw" client="_rOdV8MrHEfCy1toqgvcGcw" supplier="_2Umj8MrHEfCy1toqgvcGcw"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_ED9P4MrIEfCy1toqgvcGcw" name="GetRegistrationApproval"/>
-  <packagedElement xmi:type="uml:Interface" xmi:id="_1mYrsMrKEfCy1toqgvcGcw" name="Interface42"/>
-  <packagedElement xmi:type="uml:Component" xmi:id="_btx5gMrLEfCy1toqgvcGcw" name="USU OPeration System">
+  <packagedElement xmi:type="uml:Component" xmi:id="_btx5gMrLEfCy1toqgvcGcw" name="USU Operation System">
     <packagedElement xmi:type="uml:Component" xmi:id="_ps11YMrLEfCy1toqgvcGcw" name="Union Managemt GL"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_rOZuwMrLEfCy1toqgvcGcw" name="Membership &amp; Registration Manager">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_m9HN0MrNEfCy1toqgvcGcw" client="_rOZuwMrLEfCy1toqgvcGcw" supplier="_ftbUAMrNEfCy1toqgvcGcw" contract="_ftbUAMrNEfCy1toqgvcGcw"/>
@@ -379,9 +381,11 @@
     <packagedElement xmi:type="uml:Component" xmi:id="_uNWMIMrLEfCy1toqgvcGcw" name="Event Management GL"/>
     <packagedElement xmi:type="uml:Component" xmi:id="_v2tWoMrLEfCy1toqgvcGcw" name="USU Event Manager">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_6XTLEMrMEfCy1toqgvcGcw" client="_v2tWoMrLEfCy1toqgvcGcw" supplier="_1GJagMrMEfCy1toqgvcGcw" contract="_1GJagMrMEfCy1toqgvcGcw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_pM8X0MuQEfCy1toqgvcGcw" client="_v2tWoMrLEfCy1toqgvcGcw" supplier="_Y1XMwMuNEfCy1toqgvcGcw" contract="_Y1XMwMuNEfCy1toqgvcGcw"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_xIdSYMrLEfCy1toqgvcGcw" name="Notification &amp; Promotion Manager">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_Jfj4wMrPEfCy1toqgvcGcw" client="_xIdSYMrLEfCy1toqgvcGcw" supplier="_6cSt4MrOEfCy1toqgvcGcw" contract="_6cSt4MrOEfCy1toqgvcGcw"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_UPhbUMuTEfCy1toqgvcGcw" client="_xIdSYMrLEfCy1toqgvcGcw" supplier="_Q6PhkMuTEfCy1toqgvcGcw" contract="_Q6PhkMuTEfCy1toqgvcGcw"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Dependency" xmi:id="_LpMmIMrMEfCy1toqgvcGcw" client="_C-zB0MrMEfCy1toqgvcGcw" supplier="_F0pNkMrMEfCy1toqgvcGcw"/>
@@ -400,6 +404,16 @@
   <packagedElement xmi:type="uml:Interface" xmi:id="_UUAIMMrOEfCy1toqgvcGcw" name="Attendance Data"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_6cSt4MrOEfCy1toqgvcGcw" name="Get Notification"/>
   <packagedElement xmi:type="uml:Interface" xmi:id="_TVVEAMrPEfCy1toqgvcGcw" name="Getregistrationdetails"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_B6yHYMuNEfCy1toqgvcGcw" client="_uzmxUMq_EfCy1toqgvcGcw" supplier="_zIfXwMuMEfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_HTuiAMuNEfCy1toqgvcGcw" name="NationwideEvents"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_KjBvkMuNEfCy1toqgvcGcw" client="_zIfXwMuMEfCy1toqgvcGcw" supplier="_HTuiAMuNEfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Y1XMwMuNEfCy1toqgvcGcw" name="NationWideEvents"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_4LQxQMuQEfCy1toqgvcGcw" client="_HTuiAMuNEfCy1toqgvcGcw" supplier="_Y1XMwMuNEfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_CveE8MuTEfCy1toqgvcGcw" client="_JWXLUMuREfCy1toqgvcGcw" supplier="__EFYUMuSEfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_IquicMuTEfCy1toqgvcGcw" name="NationwideNotification"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_Q6PhkMuTEfCy1toqgvcGcw" name="NationwideNotification"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_Y2ltEMuTEfCy1toqgvcGcw" client="_IquicMuTEfCy1toqgvcGcw" supplier="_Q6PhkMuTEfCy1toqgvcGcw"/>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_aAlbAMuTEfCy1toqgvcGcw" client="__EFYUMuSEfCy1toqgvcGcw" supplier="_IquicMuTEfCy1toqgvcGcw"/>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8hZhkMrAEfCy1toqgvcGcw">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8hg2UMrAEfCy1toqgvcGcw" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
