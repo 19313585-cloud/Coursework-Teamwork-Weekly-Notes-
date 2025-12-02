@@ -17,16 +17,16 @@ WEEK 11
 
 ## Agenda Items:
 - Finished Task 4 and reviewed each others work.
-- Connected all of our subsystems
+- Connected all of our component diagrams.
   
 ## Decisions/Actions:
-- Connecting papyrus to our individual repositories.
-- Building a draft for use case and activity diagram.
+- Connecting papyrus to our group repositories.
+- Building a draft for task 5.
 - Revise our deadlines and make sure evryone is on the same page.
   
 
 ## Issues to be solved:
--  Having issues in connecting github to papyrus particularly while deleting the cloned file once it's been linked with github.
+-  Having issues in connecting github to papyrus.
 
 
 **Responsible person:**  Abdullah Azmat
