@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_VYU6kKLPEfCpI-4S8PM2Tw" type="UseCase" name="PRACTICE UML " measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_e6z9cKLPEfCpI-4S8PM2Tw" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_e61LkKLPEfCpI-4S8PM2Tw" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_e61LkaLPEfCpI-4S8PM2Tw" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_e61LkqLPEfCpI-4S8PM2Tw" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_e61Lk6LPEfCpI-4S8PM2Tw" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_e61LlKLPEfCpI-4S8PM2Tw" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_e61LlaLPEfCpI-4S8PM2Tw" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_e61LlqLPEfCpI-4S8PM2Tw" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_e61Ll6LPEfCpI-4S8PM2Tw" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="PRACTICLE%20EXCERCISE.uml#_e6wTEKLPEfCpI-4S8PM2Tw"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e6z9caLPEfCpI-4S8PM2Tw" x="180" y="120"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_VYU6kaLPEfCpI-4S8PM2Tw" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_VYU6kqLPEfCpI-4S8PM2Tw"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_VYU6k6LPEfCpI-4S8PM2Tw" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+    <owner xmi:type="uml:Model" href="PRACTICLE%20EXCERCISE.uml#_j7F14KLOEfCpI-4S8PM2Tw"/>
+  </styles>
+  <element xmi:type="uml:Model" href="PRACTICLE%20EXCERCISE.uml#_j7F14KLOEfCpI-4S8PM2Tw"/>
+</notation:Diagram>
